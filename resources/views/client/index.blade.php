@@ -2,7 +2,7 @@
 @push('css')
     <link rel="stylesheet" href="{{ asset('css/client/product-list.css') }}">
 @endpush
-@include('layout.client.banner')
+@include('layouts.client.banner')
 @section('content')
     <div class="card shadow">
         <div class="card-header" style="background-color: #eea9b6;">
